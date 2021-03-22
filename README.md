@@ -20,4 +20,4 @@ There might be a more practical way, but for now I decided to let the selenium t
 
     docker build -t selenium-test .
 
-    docker run --rm --network selenium-grid relenium-test
+    docker run --rm --network selenium-grid selenium-test
